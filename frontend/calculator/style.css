@@ -1,0 +1,39 @@
+.main_box{
+    margin-top: 30px;
+}
+.screen_box{
+    border: 4px solid black;
+    width: 600px;
+    height: 610px;
+    margin-left: 350px;
+
+}
+.on_screen{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height:70px;
+    border: 2px solid black;
+    padding-top: 16px;
+}
+.button_box{
+    width: 600px;
+    height: 519px;
+    border: 2px solid black;
+    
+}
+.buttons{
+    width: 150px;
+    height: 109px;
+    padding: 0px;
+    margin: -3px;
+    margin-left:-1px;
+    font-size: 25px;
+}
+.box{
+    font-size: 45px;
+    margin-left: 19px;
+    text-align: right;
+    border: 4px solid black;
+    margin-top: -2px;
+}. 

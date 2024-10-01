@@ -1,0 +1,148 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure minimum height covers the viewport */
+}
+
+.logo {
+  margin: 50px 0 0 0;
+  height: 43px;
+}
+
+.main {
+  width: 100%;
+  flex: 1; /* Allow the main content to expand and fill the available space */
+}
+
+.heading {
+  font-size: 80px;
+  margin-left: 50px;
+  font-weight: 900;
+}
+
+.creative {
+  color: rgb(32, 32, 158);
+}
+
+.big_font {
+  width: 50%;
+}
+
+.down {
+  display: block;
+}
+
+.beautiful {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.left_right_box {
+  display: flex;
+  margin-left: 50px;
+}
+
+.beauty {
+  font-weight: 900;
+}
+
+.beauty_text {
+  margin-top: -2px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.construct {
+  font-weight: 900;
+  margin-top: -2px;
+  text-decoration: underline;
+}
+
+.card_text {
+  margin-top: -5px;
+  text-align: justify;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.card {
+  border: 3px solid black;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(198, 7, 7, 0.2);
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 80px;
+    margin-left: 50px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 23px;
+  }
+  .left_right_box {
+    flex-direction: column;
+    margin-left: 0; /* Center content on smaller screens */
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 566px) and (max-width: 1024px) {
+  .heading {
+    margin-left: 50px;
+  }
+  .logo {
+    height: 23px;
+    margin-left: 50px;
+  }
+  .left_right_box {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 566px) {
+  .card {
+    width: 100%;
+  }
+  .left_right_box {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .heading {
+    margin-left: 50px;
+    font-size: 60px; /* Reduce heading size on smaller screens */
+  }
+  .logo {
+    height: 20px;
+    margin-left: 50px;
+  }
+}
