@@ -4601,7 +4601,6 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -11473,6 +11472,10 @@ pre .code {
   bottom: 0;
   opacity: 1;
 }
+.brand-img {
+  border: 2px solid white; /* Adjust border size */
+}
+
 
 .navbar.affix .brand-img {
   top: -10px;
